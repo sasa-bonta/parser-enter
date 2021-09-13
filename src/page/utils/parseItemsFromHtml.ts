@@ -13,6 +13,8 @@ export default (html) => {
         .text()
         .trim()
         .replace(/\s/g, ''),
+      image: $(this).find('.cm-image').attr('data-src'),
+      url: $(this).find('a').attr('href'),
     });
   });
   return result;

@@ -1,6 +1,5 @@
 import { Injectable } from '@nestjs/common';
 import axios from 'axios';
-import parser from '../page/utils/parseItemsFromHtml';
 import parseItemsFromHtml from '../page/utils/parseItemsFromHtml';
 
 @Injectable()

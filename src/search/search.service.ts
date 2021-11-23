@@ -5,7 +5,6 @@ import parseItemsFromHtml from '../page/utils/parseItemsFromHtml';
 @Injectable()
 export class SearchService {
   async searchItems(search) {
-    console.log(search);
     const result = await axios.get(
       `https://enter.online/ru/poisk/?q=${search}`,
     );
